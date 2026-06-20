@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app">
+    <div class="header">
+      <div>
+        <h1>DataGambit</h1>
+        <p class="subtitle">Press Analyse for opening suggestions</p>
+      </div>
+    </div>
+
+    <button id="analyseBtn">Analyse</button>
+
+    <div id="status"></div>
+
+    <div id="results" class="hidden">
+      <h2>Recommended openings:</h2>
+      <ul id="recommended"></ul>
+      <p id="meta"></p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
