@@ -38,7 +38,7 @@ async function analyse() {
     try {
       data = JSON.parse(rawText);
     } catch (e) {
-      throw new Error("Backend did not return JSON. Raw response: " + rawText.slice(0, 300));
+      throw new Error("Server just woke up. Press Analyse again.");
     }
 
     if (!res.ok) {
